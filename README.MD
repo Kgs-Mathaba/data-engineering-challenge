@@ -72,4 +72,4 @@ The raw data can be found in the `data/raw` folder. The annotations made by the 
 **NOTE**: All images were obtained under a creative commons license.
 
 # Final Thoughts
-You may use which ever python libraries you wish to accomplish the task. Record the names of the packages in a `requirements.txt` file. Save all results in the `data` folder, in a meaningful way.
+Please pull the code base and create your own repo. Modify that repo as per the tasks above and provide the url, when finished. You may use which ever python libraries you wish to accomplish the task. Record the names of the packages in a `requirements.txt` file. Save all results in the `data` folder, in a meaningful way.
