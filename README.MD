@@ -3,7 +3,7 @@ For this challenge we are going to run a couple of hypothetical scenarios. Each 
 The position includes:
 * A data labelling component. You will be expected to review and assess the useability of the data processed by our labelling team. Your assessments must guide the team to labelling the data with increasing accuracy and decreasing error. These assessments will always include a qualitative and quantitative component. Which must be backed up with statistics
 * A data generation component. In addition to the standard image augmentation operations we produce our own in house algorithms to create synthetic data. Your responsibilities would include implementing and testing these algorithms and their outputs
-* A data management component. After all the data labelling and generation is done their is always a tonne of data to store and curate. Data, processed and unprocessed, must be easily accessible, referenceable and backed up on the cloud
+* A data management component. After all the data labelling and generation is done there is always a tonne of data to store and curate. Data, processed and unprocessed, must be easily accessible, referenceable and backed up on the cloud
 
 # Data Labelling - Labeller Assessment
 We've been contracted to make an AI that can find all of the dogs in a given image. We've opted to use a semantic segmentation approach.
@@ -62,9 +62,14 @@ It must run with the following command:
 python consolidate_doggy_regions.py
 ```
 
+**NOTE**: This does not mean that the review will produce 5 good images, it's just for illustrative purposes. You may generate more or less.
+
 # Data
 The images are indexed from 0-34 and their corresponding annotations and overlays share the same index. The green in the annotation represents the dog and the white represents the background.
 
 The raw data can be found in the `data/raw` folder. The annotations made by the labeller can be found in the `data/annotations` folder. The annotations have been overlayed onto the raw images for easy reviewing and are available in the `data/overlays` folder.
 
 **NOTE**: All images were obtained under a creative commons license
+
+# Final Thoughts
+You may use which ever python libraries you wish to accomplish the task. Record the names of the packages in a `requirements.txt` file. Save all results in the `data` folder, in a meaningful way.
