@@ -69,7 +69,7 @@ The images are indexed from 0-34 and their corresponding annotations and overlay
 
 The raw data can be found in the `data/raw` folder. The annotations made by the labeller can be found in the `data/annotations` folder. The annotations have been overlayed onto the raw images for easy reviewing and are available in the `data/overlays` folder.
 
-**NOTE**: All images were obtained under a creative commons license
+**NOTE**: All images were obtained under a creative commons license.
 
 # Final Thoughts
 You may use which ever python libraries you wish to accomplish the task. Record the names of the packages in a `requirements.txt` file. Save all results in the `data` folder, in a meaningful way.
