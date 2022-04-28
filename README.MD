@@ -6,7 +6,7 @@ The position includes:
 * A data management component. After all the data labelling and generation is done there is always a tonne of data to store and curate. Data, processed and unprocessed, must be easily accessible, referenceable and backed up on the cloud.
 
 # Data Labelling - Labeller Assessment
-
+To asses the quality of the annotations, I have created annotations of my own. I then compare them with the given annotations using the script 
 
 # Data Generation - Working with Images
 
