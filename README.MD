@@ -22,9 +22,9 @@ extract_doggy_regions.py
 
 # Data Management - Combining images
 
-To collate the images I build several functions to resize and concat images horizontally and veritically. I then combined the images to build the collated image called `collage.png`using the 
+To collate the images I build several functions to resize and concat images horizontally and veritically. I then combined the images to build the collated image called `collage.png`using the script: 
 
 ```python
 consolidated_doggy_region.py
 ```
-script.
+
