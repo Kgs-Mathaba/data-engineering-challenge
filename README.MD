@@ -8,7 +8,7 @@ The position includes:
 # Data Labelling - Labeller Assessment
 To asses the quality of the annotations, I have created annotations of my own. I then compare them with the given annotations using the script 
 ```python
-python mask_evaluation.py
+mask_evaluation.py
 ```
 
 # Data Generation - Working with Images
